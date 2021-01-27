@@ -1,1 +1,10 @@
-*.pyc
+# IDEs
+.idea
+.vscode
+.pylintrc
+
+# project specific
+cache
+venv
+__pycache__
+.cache-*
