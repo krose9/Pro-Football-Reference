@@ -1,41 +1,18 @@
+import os
 from bs4 import BeautifulSoup
 import urllib.request
 import requests
 import pandas as pd
 import numpy as np
+from prompt import prompt_save_location
 
 
-def getGameLinks(year, week_num, base_url='http://www.pro-football-reference.com/'):
+def _rename_columns(string):
     """
-    1) Requests url concatenated from the base_url, year, and week number.
-    2) Collects all link URLs where the display text is 'Final'. This assumes
-        that these are all links to individual games from that week / year.
+    1) Relabels 'Unnamed:' string created in Pandas multi level index to blank so that names
+    can be collapsed and concatenated later.
+    2) Relabel statistics
     """
-    url = base_url+'years/'+str(year)+'/week_'+str(week_num)+'.htm'
-    print('Requesting: {}'.format(url))
-    request = urllib.request.Request(url)
-    html = urllib.request.urlopen(request).read()
-    soup = BeautifulSoup(html, 'lxml')
-
-    game_links = []
-    for i in soup.findAll('a'):
-        if i.text == 'Final':
-            game_links.append(base_url+i['href'])
-    return game_links
-
-
-def getGameResults(game_link, table_name):
-    page = requests.get(game_link)
-    df = pd.read_html(page.text.replace('<!--', ''), attrs={'id': table_name})
-    return df
-
-
-def getGamePage(game_link):
-    page = requests.get(game_link)
-    return page.text.replace('<!--', '')
-
-
-def renameColumns(string):
     unname_str = 'Unnamed:'
     mapping = {
         'Def Interceptions': 'Interceptions',
@@ -54,15 +31,51 @@ def renameColumns(string):
         return string
 
 
-def getTableData(page, table_names):
+def _get_game_links(year, week):
+    """
+    Collects all link URLs where the display text is 'Final'. This assumes
+    that these are all links to individual games from that week / year.
+    """
+    # Construct the url for a week results page
+    base_url = "http://www.pro-football-reference.com/"
+    url = f"{base_url}years/{year}/week_{week}.htm"
+
+    # Get page soup
+    print('Requesting: {}'.format(url))
+    request = urllib.request.Request(url)
+    html = urllib.request.urlopen(request).read()
+    soup = BeautifulSoup(html, 'lxml')
+
+    # The word final holds the hyperlink to the page box score
+    # Get the links
+    game_links = []
+    for i in soup.findAll('a'):
+        if i.text == 'Final':
+            game_links.append(base_url+i['href'])
+
+    return game_links
+
+
+def _get_game_page(game_link):
+    """Return the html page text after replacing problem text"""
+    page = requests.get(game_link)
+    return page.text.replace('<!--', '')
+
+
+def _get_table_data(page, table_type):
+    """
+    
+    Return:
+        A dictionary with table type as a key and the data as the value
+    """
     data = {}
-    for tbl in table_names:
+    for tbl in table_type:
         df = pd.read_html(page, attrs={'id': tbl})[0]
 
         #Rename columns and flatten multi-index
         if isinstance(df.columns, pd.core.indexes.multi.MultiIndex) == True:
-            l1 = [renameColumns(x) for x in df.columns.get_level_values(0)]
-            l2 = [renameColumns(x) for x in df.columns.get_level_values(1)]
+            l1 = [_rename_columns(x) for x in df.columns.get_level_values(0)]
+            l2 = [_rename_columns(x) for x in df.columns.get_level_values(1)]
             df.columns = [parent+child for parent, child in zip(l1, l2)]
 
         #Drop unnecessary rows
@@ -85,33 +98,49 @@ def getTableData(page, table_names):
             df = df[df['Detail'].str.contains(
                 'field goal|touchdown|field goal|conversion succeeds|extra point')]
 
-        # if tbl == 'player_defense':
-        #     print(df.columns)
-
         data[tbl] = df
+
     return data
 
 
-if __name__ == "__main__":
-    year = 2020
-    week = 19
-    game_links = getGameLinks(year, week)
-    print(game_links)
+def get_games(year, week):
 
-    tables = ['player_offense', 'player_defense', 'scoring', 'pbp']
+    year = str(year)
+    week = str(week)
+    table_types = ['player_offense', 'player_defense', 'scoring', 'pbp'] # table_types to iterate
+
+    game_links = _get_game_links(year, week)
+
+    print("All game links:")
+    print(game_links,"\n")
+
 
     output = {}
-    for gm in game_links:
-        print(f'Processing: {gm}')
-        page = getGamePage(gm)
-        data = getTableData(page, tables)
+    for game in game_links:
+        # Get box score page
+        print(f'Processing: {game}')
+        page = _get_game_page(game)
 
+        # Get dictionary of data table types
+        data = _get_table_data(page, table_types)
+
+        # 
         for tbl in data.keys():
+            # If key exists (because of anther game processed) then append data frames
             if tbl in output.keys():
                 output[tbl].append(data[tbl])
             else:
-                output[tbl] = [data[tbl]]
+                output[tbl] = [data[tbl]] # If key not exist, make it
 
+    save_dir = prompt_save_location()
     for key in output.keys():
+        # Construct the destination path
+        file_path = os.path.join(save_dir, f"{key}_{year}wk{week}.csv")
+
         df_combined = pd.concat(output[key])
-        df_combined.to_csv(f'datasets/{key}_{year}wk{week}.csv', index=False)
+        df_combined.to_csv(file_path, index=False)
+        
+if __name__ == "__main__":
+    get_games(year=2020, week=19)
+
+
