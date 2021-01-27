@@ -1,0 +1,32 @@
+Quarter,Time,Tm,Detail,Away,Home
+1.0,8:39,Packers,Mason Crosby 24 yard field goal,0,3
+,4:36,Rams,Matt Gay 37 yard field goal,3,3
+2.0,11:37,Packers,Davante Adams 1 yard pass from Aaron Rodgers (Mason Crosby kick),3,10
+,3:29,Packers,Aaron Rodgers 1 yard rush (pass failed),3,16
+,0:29,Rams,Van Jefferson 4 yard pass from Jared Goff (Matt Gay kick),10,16
+,0:00,Packers,Mason Crosby 39 yard field goal,10,19
+3.0,12:10,Packers,Aaron Jones 1 yard rush (pass failed),10,25
+,1:41,Rams,Cam Akers 7 yard rush (Cam Akers pass from Jared Goff),18,25
+4.0,6:52,Packers,Allen Lazard 58 yard pass from Aaron Rodgers (Mason Crosby kick),18,32
+1.0,2:57,Bills,Tyler Bass 28 yard field goal,0,3
+2.0,0:04,Ravens,Justin Tucker 34 yard field goal,3,3
+3.0,9:29,Bills,Stefon Diggs 3 yard pass from Josh Allen (Tyler Bass kick),3,10
+,0:41,Bills,Taron Johnson 101 yard interception return (Tyler Bass kick),3,17
+1.0,9:11,Chiefs,Patrick Mahomes 1 yard rush (Harrison Butker kick failed),0,6
+,2:41,Browns,Cody Parkey 46 yard field goal,3,6
+2.0,13:48,Chiefs,Travis Kelce 20 yard pass from Patrick Mahomes (Harrison Butker kick),3,13
+,3:09,Chiefs,Harrison Butker 50 yard field goal,3,16
+,0:02,Chiefs,Harrison Butker 28 yard field goal,3,19
+3.0,9:29,Browns,Jarvis Landry 4 yard pass from Baker Mayfield (Cody Parkey kick),10,19
+,4:24,Chiefs,Harrison Butker 33 yard field goal,10,22
+4.0,11:07,Browns,Kareem Hunt 3 yard rush (Cody Parkey kick),17,22
+1.0,11:30,Saints,Wil Lutz 23 yard field goal,0,3
+,4:39,Saints,Wil Lutz 42 yard field goal,0,6
+2.0,12:57,Buccaneers,Ryan Succop 26 yard field goal,3,6
+,11:16,Buccaneers,Mike Evans 3 yard pass from Tom Brady (Ryan Succop kick),10,6
+,8:08,Saints,Tre'Quan Smith 56 yard pass from Jameis Winston (Wil Lutz kick),10,13
+,0:00,Buccaneers,Ryan Succop 37 yard field goal,13,13
+3.0,9:43,Saints,Tre'Quan Smith 16 yard pass from Drew Brees (Wil Lutz kick),13,20
+,2:22,Buccaneers,Leonard Fournette 6 yard pass from Tom Brady (Ryan Succop kick),20,20
+4.0,9:52,Buccaneers,Ryan Succop 36 yard field goal,23,20
+,4:57,Buccaneers,Tom Brady 1 yard rush (Ryan Succop kick),30,20

@@ -1,0 +1,236 @@
+player,pos,g,team,teammascot,teamshort,teamkey
+Josh Allen,QB,16.0,Buffalo Bills,Bills,BUF,BUF
+Matt Barkley,QB,5.0,Buffalo Bills,Bills,BUF,BUF
+Tyler Bass,K,16.0,Buffalo Bills,Bills,BUF,BUF
+Cole Beasley,WR,15.0,Buffalo Bills,Bills,BUF,BUF
+John Brown,WR,9.0,Buffalo Bills,Bills,BUF,BUF
+Gabriel Davis,WR,16.0,Buffalo Bills,Bills,BUF,BUF
+Stefon Diggs,WR,16.0,Buffalo Bills,Bills,BUF,BUF
+Jake Fromm,QB,,Buffalo Bills,Bills,BUF,BUF
+Reggie Gilliam,TE,14.0,Buffalo Bills,Bills,BUF,BUF
+Taiwan Jones,RB,13.0,Buffalo Bills,Bills,BUF,BUF
+Dawson Knox,TE,12.0,Buffalo Bills,Bills,BUF,BUF
+Tyler Kroft,TE,10.0,Buffalo Bills,Bills,BUF,BUF
+Isaiah McKenzie,WR,16.0,Buffalo Bills,Bills,BUF,BUF
+Andre Roberts,WR,15.0,Buffalo Bills,Bills,BUF,BUF
+Devin Singletary,RB,16.0,Buffalo Bills,Bills,BUF,BUF
+Lee Smith,TE,10.0,Buffalo Bills,Bills,BUF,BUF
+T.J. Yeldon,RB,3.0,Buffalo Bills,Bills,BUF,BUF
+Chris Boswell,K,13.0,Pittsburg Steelers,Steelers,PIT,PIT
+Chase Claypool,WR,16.0,Pittsburg Steelers,Steelers,PIT,PIT
+James Conner,RB,13.0,Pittsburg Steelers,Steelers,PIT,PIT
+Joshua Dobbs,QB,1.0,Pittsburg Steelers,Steelers,PIT,PIT
+Eric Ebron,TE,15.0,Pittsburg Steelers,Steelers,PIT,PIT
+Diontae Johnson,WR,15.0,Pittsburg Steelers,Steelers,PIT,PIT
+Ray-Ray McCloud,WR,16.0,Pittsburg Steelers,Steelers,PIT,PIT
+Vance McDonald,TE,14.0,Pittsburg Steelers,Steelers,PIT,PIT
+Anthony McFarland Jr.,RB,11.0,Pittsburg Steelers,Steelers,PIT,PIT
+Ben Roethlisberger,QB,15.0,Pittsburg Steelers,Steelers,PIT,PIT
+Mason Rudolph,QB,5.0,Pittsburg Steelers,Steelers,PIT,PIT
+Jaylen Samuels,RB,14.0,Pittsburg Steelers,Steelers,PIT,PIT
+JuJu Smith-Schuster,WR,16.0,Pittsburg Steelers,Steelers,PIT,PIT
+James Washington,WR,16.0,Pittsburg Steelers,Steelers,PIT,PIT
+Derek Watt,FB,12.0,Pittsburg Steelers,Steelers,PIT,PIT
+Mark Andrews,TE,14.0,Baltimore Ravens,Ravens,BAL,RAV
+Miles Boykin,WR,16.0,Baltimore Ravens,Ravens,BAL,RAV
+Marquise Brown,WR,16.0,Baltimore Ravens,Ravens,BAL,RAV
+Dez Bryant,WR,6.0,Baltimore Ravens,Ravens,BAL,RAV
+J.K. Dobbins,RB,15.0,Baltimore Ravens,Ravens,BAL,RAV
+Devin Duvernay,WR,16.0,Baltimore Ravens,Ravens,BAL,RAV
+Gus Edwards,RB,16.0,Baltimore Ravens,Ravens,BAL,RAV
+Justice Hill,RB,12.0,Baltimore Ravens,Ravens,BAL,RAV
+Lamar Jackson,QB,15.0,Baltimore Ravens,Ravens,BAL,RAV
+Chris Moore,WR,3.0,Baltimore Ravens,Ravens,BAL,RAV
+James Proche,WR,14.0,Baltimore Ravens,Ravens,BAL,RAV
+Willie Snead,WR,13.0,Baltimore Ravens,Ravens,BAL,RAV
+Eric Tomlinson,TE,6.0,Baltimore Ravens,Ravens,BAL,RAV
+Justin Tucker,K,16.0,Baltimore Ravens,Ravens,BAL,RAV
+Harrison Bryant,TE,15.0,Cleveland Browns,Browns,CLE,CLE
+Stephen Carlson,TE,16.0,Cleveland Browns,Browns,CLE,CLE
+Nick Chubb,RB,12.0,Cleveland Browns,Browns,CLE,CLE
+Marvin Hall,WR,1.0,Cleveland Browns,Browns,CLE,CLE
+Rashard Higgins,WR,13.0,Cleveland Browns,Browns,CLE,CLE
+KhaDarel Hodge,WR,9.0,Cleveland Browns,Browns,CLE,CLE
+Alexander Hollins,WR,,Cleveland Browns,Browns,CLE,CLE
+Austin Hooper,TE,13.0,Cleveland Browns,Browns,CLE,CLE
+Kareem Hunt,RB,16.0,Cleveland Browns,Browns,CLE,CLE
+Andy Janovich,FB,14.0,Cleveland Browns,Browns,CLE,CLE
+D'Ernest Johnson,RB,16.0,Cleveland Browns,Browns,CLE,CLE
+Case Keenum,QB,2.0,Cleveland Browns,Browns,CLE,CLE
+Jarvis Landry,WR,15.0,Cleveland Browns,Browns,CLE,CLE
+Baker Mayfield,QB,16.0,Cleveland Browns,Browns,CLE,CLE
+David Njoku,TE,13.0,Cleveland Browns,Browns,CLE,CLE
+Cody Parkey,K,15.0,Cleveland Browns,Browns,CLE,CLE
+Donovan Peoples-Jones,WR,12.0,Cleveland Browns,Browns,CLE,CLE
+Cameron Batson,WR,12.0,Tennessee Titans,Titans,TEN,OTI
+Khari Blasingame,RB,15.0,Tennessee Titans,Titans,TEN,OTI
+A.J. Brown,WR,14.0,Tennessee Titans,Titans,TEN,OTI
+Corey Davis,WR,14.0,Tennessee Titans,Titans,TEN,OTI
+Darrynton Evans,RB,5.0,Tennessee Titans,Titans,TEN,OTI
+Anthony Firkser,TE,16.0,Tennessee Titans,Titans,TEN,OTI
+D'Onta Foreman,RB,6.0,Tennessee Titans,Titans,TEN,OTI
+Stephen Gostkowski,K,15.0,Tennessee Titans,Titans,TEN,OTI
+Derrick Henry,RB,16.0,Tennessee Titans,Titans,TEN,OTI
+Jeremy McNichols,RB,16.0,Tennessee Titans,Titans,TEN,OTI
+Senorise Perry,RB,7.0,Tennessee Titans,Titans,TEN,OTI
+MyCole Pruitt,TE,11.0,Tennessee Titans,Titans,TEN,OTI
+Kalif Raymond,WR,15.0,Tennessee Titans,Titans,TEN,OTI
+Jonnu Smith,TE,15.0,Tennessee Titans,Titans,TEN,OTI
+Geoff Swaim,TE,10.0,Tennessee Titans,Titans,TEN,OTI
+Ryan Tannehill,QB,16.0,Tennessee Titans,Titans,TEN,OTI
+Nick Westbrook-Ikhine,WR,14.0,Tennessee Titans,Titans,TEN,OTI
+Logan Woodside,QB,6.0,Tennessee Titans,Titans,TEN,OTI
+Mo Alie-Cox,TE,15.0,Indianapolis Colts,Colts,IND,CLT
+Rodrigo Blankenship,K,16.0,Indianapolis Colts,Colts,IND,CLT
+Jacoby Brissett,QB,11.0,Indianapolis Colts,Colts,IND,CLT
+Trey Burton,TE,13.0,Indianapolis Colts,Colts,IND,CLT
+Jack Doyle,TE,14.0,Indianapolis Colts,Colts,IND,CLT
+Ashton Dulin,WR,13.0,Indianapolis Colts,Colts,IND,CLT
+Jacob Eason,QB,,Indianapolis Colts,Colts,IND,CLT
+De'Michael Harris,WR,7.0,Indianapolis Colts,Colts,IND,CLT
+T.Y. Hilton,WR,15.0,Indianapolis Colts,Colts,IND,CLT
+Nyheim Hines,RB,16.0,Indianapolis Colts,Colts,IND,CLT
+Zach Pascal,WR,16.0,Indianapolis Colts,Colts,IND,CLT
+Dezmon Patmon,WR,1.0,Indianapolis Colts,Colts,IND,CLT
+Michael Pittman Jr.,WR,13.0,Indianapolis Colts,Colts,IND,CLT
+Philip Rivers,QB,16.0,Indianapolis Colts,Colts,IND,CLT
+Jonathan Taylor,RB,15.0,Indianapolis Colts,Colts,IND,CLT
+Noah Togiai,TE,4.0,Indianapolis Colts,Colts,IND,CLT
+Jordan Wilkins,RB,15.0,Indianapolis Colts,Colts,IND,CLT
+Le'Veon Bell,RB,9.0,Kansas City Chiefs,Chiefs,KC,KAN
+Harrison Butker,K,16.0,Kansas City Chiefs,Chiefs,KC,KAN
+Clyde Edwards-Helaire,RB,13.0,Kansas City Chiefs,Chiefs,KC,KAN
+Mecole Hardman,WR,16.0,Kansas City Chiefs,Chiefs,KC,KAN
+Chad Henne,QB,3.0,Kansas City Chiefs,Chiefs,KC,KAN
+Tyreek Hill,WR,15.0,Kansas City Chiefs,Chiefs,KC,KAN
+Nick Keizer,TE,16.0,Kansas City Chiefs,Chiefs,KC,KAN
+Travis Kelce,TE,15.0,Kansas City Chiefs,Chiefs,KC,KAN
+Patrick Mahomes,QB,15.0,Kansas City Chiefs,Chiefs,KC,KAN
+Byron Pringle,WR,13.0,Kansas City Chiefs,Chiefs,KC,KAN
+Demarcus Robinson,WR,16.0,Kansas City Chiefs,Chiefs,KC,KAN
+Ricky Seals-Jones,WR,2.0,Kansas City Chiefs,Chiefs,KC,KAN
+Anthony Sherman,RB,13.0,Kansas City Chiefs,Chiefs,KC,KAN
+Darwin Thompson,RB,14.0,Kansas City Chiefs,Chiefs,KC,KAN
+Sammy Watkins,WR,10.0,Kansas City Chiefs,Chiefs,KC,KAN
+Darrel Williams,RB,16.0,Kansas City Chiefs,Chiefs,KC,KAN
+Peyton Barber,RB,16.0,Washington Football Team,Team,WAS,WAS
+Marcus Baugh,TE,8.0,Washington Football Team,Team,WAS,WAS
+Robert Foster,WR,4.0,Washington Football Team,Team,WAS,WAS
+Antonio Gandy-Golden,WR,6.0,Washington Football Team,Team,WAS,WAS
+Antonio Gibson,RB,14.0,Washington Football Team,Team,WAS,WAS
+Taylor Heinicke,QB,1.0,Washington Football Team,Team,WAS,WAS
+Dustin Hopkins,K,16.0,Washington Football Team,Team,WAS,WAS
+J.D. McKissic,WR,16.0,Washington Football Team,Team,WAS,WAS
+Terry McLaurin,WR,15.0,Washington Football Team,Team,WAS,WAS
+Lamar Miller,RB,,Washington Football Team,Team,WAS,WAS
+Steven Montez,QB,,Washington Football Team,Team,WAS,WAS
+Cam Sims,WR,16.0,Washington Football Team,Team,WAS,WAS
+Steven Sims,WR,12.0,Washington Football Team,Team,WAS,WAS
+Alex Smith,QB,8.0,Washington Football Team,Team,WAS,WAS
+Jeremy Sprinkle,TE,16.0,Washington Football Team,Team,WAS,WAS
+Isaiah Wright,WR,14.0,Washington Football Team,Team,WAS,WAS
+Davante Adams,WR,14.0,Green Bay Packers,Packers,GB,GNB
+Tavon Austin,WR,4.0,Green Bay Packers,Packers,GB,GNB
+Tim Boyle,QB,8.0,Green Bay Packers,Packers,GB,GNB
+Mason Crosby,K,16.0,Green Bay Packers,Packers,GB,GNB
+Dominique Dafney,TE,5.0,Green Bay Packers,Packers,GB,GNB
+AJ Dillon,RB,11.0,Green Bay Packers,Packers,GB,GNB
+Aaron Jones,RB,14.0,Green Bay Packers,Packers,GB,GNB
+Allen Lazard,WR,10.0,Green Bay Packers,Packers,GB,GNB
+Marcedes Lewis,TE,15.0,Green Bay Packers,Packers,GB,GNB
+Jordan Love,QB,,Green Bay Packers,Packers,GB,GNB
+Aaron Rodgers,QB,16.0,Green Bay Packers,Packers,GB,GNB
+Equanimeous St. Brown,WR,12.0,Green Bay Packers,Packers,GB,GNB
+Jace Sternberger,TE,12.0,Green Bay Packers,Packers,GB,GNB
+Malik Taylor,WR,15.0,Green Bay Packers,Packers,GB,GNB
+Robert Tonyan,TE,16.0,Green Bay Packers,Packers,GB,GNB
+Marquez Valdes-Scantling,WR,16.0,Green Bay Packers,Packers,GB,GNB
+Jamaal Williams,RB,14.0,Green Bay Packers,Packers,GB,GNB
+DeAndre Carter,WR,4.0,Chicago Bears,Bears,CHI,CHI
+Nick Foles,QB,9.0,Chicago Bears,Bears,CHI,CHI
+Jimmy Graham,TE,16.0,Chicago Bears,Bears,CHI,CHI
+Demetrius Harris,TE,15.0,Chicago Bears,Bears,CHI,CHI
+J.P. Holtz,TE,16.0,Chicago Bears,Bears,CHI,CHI
+Cole Kmet,TE,16.0,Chicago Bears,Bears,CHI,CHI
+Anthony Miller,WR,16.0,Chicago Bears,Bears,CHI,CHI
+David Montgomery,RB,15.0,Chicago Bears,Bears,CHI,CHI
+Darnell Mooney,WR,16.0,Chicago Bears,Bears,CHI,CHI
+Ryan Nall,RB,16.0,Chicago Bears,Bears,CHI,CHI
+Cordarrelle Patterson,WR,16.0,Chicago Bears,Bears,CHI,CHI
+Artavis Pierce,RB,5.0,Chicago Bears,Bears,CHI,CHI
+Riley Ridley,WR,5.0,Chicago Bears,Bears,CHI,CHI
+Allen Robinson,WR,16.0,Chicago Bears,Bears,CHI,CHI
+Cairo Santos,K,16.0,Chicago Bears,Bears,CHI,CHI
+Mitchell Trubisky,QB,10.0,Chicago Bears,Bears,CHI,CHI
+Javon Wims,WR,13.0,Chicago Bears,Bears,CHI,CHI
+Drew Brees,QB,12.0,New Orleans Saints,Saints,NO,NOR
+Michael Burton,FB,15.0,New Orleans Saints,Saints,NO,NOR
+Marquez Callaway,WR,11.0,New Orleans Saints,Saints,NO,NOR
+Jared Cook,TE,15.0,New Orleans Saints,Saints,NO,NOR
+Justin Hardee,WR,10.0,New Orleans Saints,Saints,NO,NOR
+Deonte Harris,WR,9.0,New Orleans Saints,Saints,NO,NOR
+Josh Hill,TE,14.0,New Orleans Saints,Saints,NO,NOR
+Taysom Hill,QB,16.0,New Orleans Saints,Saints,NO,NOR
+Juwan Johnson,WR,7.0,New Orleans Saints,Saints,NO,NOR
+Alvin Kamara,RB,15.0,New Orleans Saints,Saints,NO,NOR
+Wil Lutz,K,16.0,New Orleans Saints,Saints,NO,NOR
+Latavius Murray,RB,15.0,New Orleans Saints,Saints,NO,NOR
+Emmanuel Sanders,WR,14.0,New Orleans Saints,Saints,NO,NOR
+Tre'Quan Smith,WR,14.0,New Orleans Saints,Saints,NO,NOR
+Michael Thomas,WR,7.0,New Orleans Saints,Saints,NO,NOR
+Adam Trautman,TE,15.0,New Orleans Saints,Saints,NO,NOR
+Dwayne Washington,RB,11.0,New Orleans Saints,Saints,NO,NOR
+Jameis Winston,QB,4.0,New Orleans Saints,Saints,NO,NOR
+Antony Auclair,TE,8.0,Tampa Bay Bucs,Bucs,TB,TAM
+Tom Brady,QB,16.0,Tampa Bay Bucs,Bucs,TB,TAM
+Cameron Brate,TE,16.0,Tampa Bay Bucs,Bucs,TB,TAM
+Antonio Brown,WR,8.0,Tampa Bay Bucs,Bucs,TB,TAM
+Mike Evans,WR,16.0,Tampa Bay Bucs,Bucs,TB,TAM
+Leonard Fournette,RB,13.0,Tampa Bay Bucs,Bucs,TB,TAM
+Blaine Gabbert,QB,4.0,Tampa Bay Bucs,Bucs,TB,TAM
+Chris Godwin,WR,12.0,Tampa Bay Bucs,Bucs,TB,TAM
+Ryan Griffin,QB,,Tampa Bay Bucs,Bucs,TB,TAM
+Rob Gronkowski,TE,16.0,Tampa Bay Bucs,Bucs,TB,TAM
+Tanner Hudson,TE,11.0,Tampa Bay Bucs,Bucs,TB,TAM
+Tyler Johnson,WR,14.0,Tampa Bay Bucs,Bucs,TB,TAM
+Ronald Jones II,RB,14.0,Tampa Bay Bucs,Bucs,TB,TAM
+LeSean McCoy,RB,10.0,Tampa Bay Bucs,Bucs,TB,TAM
+Jaydon Mickens,WR,10.0,Tampa Bay Bucs,Bucs,TB,TAM
+Scott Miller,WR,16.0,Tampa Bay Bucs,Bucs,TB,TAM
+Ryan Succop,K,16.0,Tampa Bay Bucs,Bucs,TB,TAM
+Ke'Shawn Vaughn,RB,10.0,Tampa Bay Bucs,Bucs,TB,TAM
+Justin Watson,WR,11.0,Tampa Bay Bucs,Bucs,TB,TAM
+Chris Carson,RB,12.0,Seattle Seahawks,Seahawks,SEA,SEA
+DeeJay Dallas,RB,12.0,Seattle Seahawks,Seahawks,SEA,SEA
+Will Dissly,TE,16.0,Seattle Seahawks,Seahawks,SEA,SEA
+Josh Gordon,WR,,Seattle Seahawks,Seahawks,SEA,SEA
+Jacob Hollister,TE,16.0,Seattle Seahawks,Seahawks,SEA,SEA
+Carlos Hyde,RB,10.0,Seattle Seahawks,Seahawks,SEA,SEA
+Tyler Lockett,WR,16.0,Seattle Seahawks,Seahawks,SEA,SEA
+D.K. Metcalf,WR,16.0,Seattle Seahawks,Seahawks,SEA,SEA
+David Moore,WR,16.0,Seattle Seahawks,Seahawks,SEA,SEA
+Jason Myers,K,16.0,Seattle Seahawks,Seahawks,SEA,SEA
+Greg Olsen,TE,11.0,Seattle Seahawks,Seahawks,SEA,SEA
+Colby Parkinson,TE,6.0,Seattle Seahawks,Seahawks,SEA,SEA
+Rashaad Penny,RB,3.0,Seattle Seahawks,Seahawks,SEA,SEA
+Geno Smith,QB,1.0,Seattle Seahawks,Seahawks,SEA,SEA
+Freddie Swain,WR,16.0,Seattle Seahawks,Seahawks,SEA,SEA
+Luke Willson,TE,5.0,Seattle Seahawks,Seahawks,SEA,SEA
+Russell Wilson,QB,16.0,Seattle Seahawks,Seahawks,SEA,SEA
+Cam Akers,RB,13.0,Los Angeles Rams,Rams,LAR,RAM
+Blake Bortles,QB,,Los Angeles Rams,Rams,LAR,RAM
+Malcolm Brown,RB,16.0,Los Angeles Rams,Rams,LAR,RAM
+Gerald Everett,TE,16.0,Los Angeles Rams,Rams,LAR,RAM
+Matt Gay,K,7.0,Los Angeles Rams,Rams,LAR,RAM
+Jared Goff,QB,15.0,Los Angeles Rams,Rams,LAR,RAM
+Tyler Higbee,TE,15.0,Los Angeles Rams,Rams,LAR,RAM
+Brycen Hopkins,TE,5.0,Los Angeles Rams,Rams,LAR,RAM
+Trishton Jackson,WR,,Los Angeles Rams,Rams,LAR,RAM
+Van Jefferson,WR,16.0,Los Angeles Rams,Rams,LAR,RAM
+Xavier Jones,RB,13.0,Los Angeles Rams,Rams,LAR,RAM
+Cooper Kupp,WR,15.0,Los Angeles Rams,Rams,LAR,RAM
+Johnny Mundt,TE,16.0,Los Angeles Rams,Rams,LAR,RAM
+Josh Reynolds,WR,16.0,Los Angeles Rams,Rams,LAR,RAM
+Nsimba Webster,WR,16.0,Los Angeles Rams,Rams,LAR,RAM
+John Wolford,QB,1.0,Los Angeles Rams,Rams,LAR,RAM
+Robert Woods,WR,16.0,Los Angeles Rams,Rams,LAR,RAM
